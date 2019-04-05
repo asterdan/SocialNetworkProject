@@ -1,0 +1,48 @@
+#navigation
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+#navigation li
+{
+    float: left;
+}
+
+#navigation li a
+{
+    display: block;
+    color: cornflowerblue;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-left:1px solid gainsboro;
+    border-right:1px solid gainsboro;
+}
+
+#navigation li a:hover
+{
+    background-color:gainsboro;
+    color: cornflowerblue;
+}
+
+#rrethMejeNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+  }
+  
+  #rrethMejeNav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  #rrethMejeNav li a:hover {
+    background-color: #555;
+    color: white;
+  }
